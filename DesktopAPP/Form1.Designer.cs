@@ -33,7 +33,7 @@
             // 
             // buttonIniciar
             // 
-            this.buttonIniciar.Location = new System.Drawing.Point(370, 147);
+            this.buttonIniciar.Location = new System.Drawing.Point(352, 151);
             this.buttonIniciar.Name = "buttonIniciar";
             this.buttonIniciar.Size = new System.Drawing.Size(75, 23);
             this.buttonIniciar.TabIndex = 0;
