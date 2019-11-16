@@ -1,6 +1,6 @@
 ﻿namespace DesktopAPP
 {
-    partial class FormIniciar
+    partial class Form1_Iniciar
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,28 +33,38 @@
             this.buttonEnglishFlag = new System.Windows.Forms.Button();
             this.buttonSpanishFlag = new System.Windows.Forms.Button();
             this.buttonCatalanFlag = new System.Windows.Forms.Button();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonIniciar
             // 
+            this.buttonIniciar.BackColor = System.Drawing.Color.Transparent;
+            this.buttonIniciar.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.buttonIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonIniciar.Location = new System.Drawing.Point(350, 250);
+            this.buttonIniciar.Location = new System.Drawing.Point(320, 215);
             this.buttonIniciar.Name = "buttonIniciar";
-            this.buttonIniciar.Size = new System.Drawing.Size(300, 100);
+            this.buttonIniciar.Size = new System.Drawing.Size(350, 150);
             this.buttonIniciar.TabIndex = 0;
             this.buttonIniciar.Text = "INICIAR";
-            this.buttonIniciar.UseVisualStyleBackColor = true;
+            this.buttonIniciar.UseVisualStyleBackColor = false;
             this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // buttonSalir
             // 
+            this.buttonSalir.BackColor = System.Drawing.Color.Transparent;
+            this.buttonSalir.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.buttonSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSalir.Location = new System.Drawing.Point(423, 356);
+            this.buttonSalir.Location = new System.Drawing.Point(405, 371);
             this.buttonSalir.Name = "buttonSalir";
-            this.buttonSalir.Size = new System.Drawing.Size(150, 75);
+            this.buttonSalir.Size = new System.Drawing.Size(175, 85);
             this.buttonSalir.TabIndex = 1;
             this.buttonSalir.Text = "SALIR";
-            this.buttonSalir.UseVisualStyleBackColor = true;
+            this.buttonSalir.UseVisualStyleBackColor = false;
             this.buttonSalir.Click += new System.EventHandler(this.buttonSalir_Click);
             // 
             // buttonEnglishFlag
@@ -93,7 +103,20 @@
             this.buttonCatalanFlag.TabIndex = 4;
             this.buttonCatalanFlag.UseVisualStyleBackColor = false;
             // 
-            // FormIniciar
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxLogo.Image = global::DesktopAPP.Properties.Resources.Logo1__3_;
+            this.pictureBoxLogo.InitialImage = null;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(12, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(250, 250);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogo.TabIndex = 5;
+            this.pictureBoxLogo.TabStop = false;
+            // 
+            // Form1_Iniciar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,6 +124,7 @@
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 611);
+            this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.buttonCatalanFlag);
             this.Controls.Add(this.buttonSpanishFlag);
             this.Controls.Add(this.buttonEnglishFlag);
@@ -108,10 +132,11 @@
             this.Controls.Add(this.buttonIniciar);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
-            this.Name = "FormIniciar";
+            this.Name = "Form1_Iniciar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Desktop App";
+            this.Text = "Galaxy Traveller";
             this.Load += new System.EventHandler(this.FormIniciar_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -123,6 +148,7 @@
         private System.Windows.Forms.Button buttonEnglishFlag;
         private System.Windows.Forms.Button buttonSpanishFlag;
         private System.Windows.Forms.Button buttonCatalanFlag;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
     }
 }
 

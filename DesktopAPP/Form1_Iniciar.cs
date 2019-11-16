@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DesktopAPP
 {
-    public partial class FormIniciar : Form
+    public partial class Form1_Iniciar : Form
     {
-        public FormIniciar()
+        public Form1_Iniciar()
         {
             InitializeComponent();
         }
@@ -24,11 +24,12 @@ namespace DesktopAPP
 
         private void buttonIniciar_Click(object sender, EventArgs e)
         {
-            //Abre el siguiente formulario (Administrar preguntas y logros)
-            //Hay que mirar como se hace para que se abra en la misma ventana en lugar de en otra
-            //De momento lo dejo asi
-            Form4_AñadirPregunta F_Adm = new Form4_AñadirPregunta();
-            F_Adm.ShowDialog();
+            this.Hide();
+            //Esto no sera asi, era para testear el boton
+            Form4_AñadirPregunta F_APregunta = new Form4_AñadirPregunta();
+            F_APregunta.ShowDialog();
+
+            
         }
 
         private void buttonSalir_Click(object sender, EventArgs e)

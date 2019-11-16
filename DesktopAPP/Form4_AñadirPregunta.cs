@@ -17,39 +17,55 @@ namespace DesktopAPP
             InitializeComponent();
         }
 
-        private void comboBoxDificultad_SelectedIndexChanged(object sender, EventArgs e)
+        private void Form4AñadirPregunta_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void richTextBoxPregunta_TextChanged(object sender, EventArgs e)
+        private void comboBox4_Dificultad_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBoxRespuesta1_TextChanged(object sender, EventArgs e)
+        private void richTextBox4_Pregunta_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBoxRespuesta2_TextChanged(object sender, EventArgs e)
+        private void textBox4_Respuesta1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBoxRespuesta3_TextChanged(object sender, EventArgs e)
+        private void textBox4_Respuesta2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void textBoxRespuesta_correcta_TextChanged(object sender, EventArgs e)
+        private void textBox4_Respuesta3_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void FormAdministrar_Load(object sender, EventArgs e)
+        private void textBox4_Respuesta_correcta_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Guardar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //Esto no sera asi, era para testear el boton
+            Form5_ModificarPregunta F_MPregunta = new Form5_ModificarPregunta();
+            F_MPregunta.ShowDialog();
+        }
+
+        private void button4_Atras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            //Esto no sera asi, era para testear el boton
+            Form1_Iniciar F_Ini = new Form1_Iniciar();
+            F_Ini.ShowDialog();
         }
     }
 }
