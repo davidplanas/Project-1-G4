@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form2_Administrar.cs">
+    <Compile Include="Form4_AñadirPregunta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2_Administrar.Designer.cs">
-      <DependentUpon>Form2_Administrar.cs</DependentUpon>
+    <Compile Include="Form4_AñadirPregunta.Designer.cs">
+      <DependentUpon>Form4_AñadirPregunta.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1_Iniciar.cs">
       <SubType>Form</SubType>
@@ -60,8 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form2_Administrar.resx">
-      <DependentUpon>Form2_Administrar.cs</DependentUpon>
+    <EmbeddedResource Include="Form4_AñadirPregunta.resx">
+      <DependentUpon>Form4_AñadirPregunta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1_Iniciar.resx">
       <DependentUpon>Form1_Iniciar.cs</DependentUpon>

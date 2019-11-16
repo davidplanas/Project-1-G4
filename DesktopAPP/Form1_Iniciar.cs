@@ -27,7 +27,7 @@ namespace DesktopAPP
             //Abre el siguiente formulario (Administrar preguntas y logros)
             //Hay que mirar como se hace para que se abra en la misma ventana en lugar de en otra
             //De momento lo dejo asi
-            FormAdministrar F_Adm = new FormAdministrar();
+            Form4_AñadirPregunta F_Adm = new Form4_AñadirPregunta();
             F_Adm.ShowDialog();
         }
 
