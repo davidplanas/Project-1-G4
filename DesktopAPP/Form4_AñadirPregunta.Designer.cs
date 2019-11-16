@@ -69,7 +69,7 @@
             this.labelRespuesta1.AutoSize = true;
             this.labelRespuesta1.BackColor = System.Drawing.Color.Transparent;
             this.labelRespuesta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRespuesta1.Location = new System.Drawing.Point(170, 305);
+            this.labelRespuesta1.Location = new System.Drawing.Point(170, 295);
             this.labelRespuesta1.Name = "labelRespuesta1";
             this.labelRespuesta1.Size = new System.Drawing.Size(127, 25);
             this.labelRespuesta1.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.labelRespuesta2.AutoSize = true;
             this.labelRespuesta2.BackColor = System.Drawing.Color.Transparent;
             this.labelRespuesta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRespuesta2.Location = new System.Drawing.Point(170, 375);
+            this.labelRespuesta2.Location = new System.Drawing.Point(170, 365);
             this.labelRespuesta2.Name = "labelRespuesta2";
             this.labelRespuesta2.Size = new System.Drawing.Size(127, 25);
             this.labelRespuesta2.TabIndex = 3;
@@ -91,7 +91,7 @@
             this.labelRespuesta3.AutoSize = true;
             this.labelRespuesta3.BackColor = System.Drawing.Color.Transparent;
             this.labelRespuesta3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRespuesta3.Location = new System.Drawing.Point(170, 445);
+            this.labelRespuesta3.Location = new System.Drawing.Point(170, 435);
             this.labelRespuesta3.Name = "labelRespuesta3";
             this.labelRespuesta3.Size = new System.Drawing.Size(127, 25);
             this.labelRespuesta3.TabIndex = 4;
@@ -102,7 +102,7 @@
             this.labelRespuesta_correcta.AutoSize = true;
             this.labelRespuesta_correcta.BackColor = System.Drawing.Color.Transparent;
             this.labelRespuesta_correcta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRespuesta_correcta.Location = new System.Drawing.Point(109, 515);
+            this.labelRespuesta_correcta.Location = new System.Drawing.Point(109, 505);
             this.labelRespuesta_correcta.Name = "labelRespuesta_correcta";
             this.labelRespuesta_correcta.Size = new System.Drawing.Size(186, 25);
             this.labelRespuesta_correcta.TabIndex = 5;
@@ -119,7 +119,7 @@
             "ALTA"});
             this.comboBoxDificultad.Location = new System.Drawing.Point(212, 140);
             this.comboBoxDificultad.Name = "comboBoxDificultad";
-            this.comboBoxDificultad.Size = new System.Drawing.Size(104, 33);
+            this.comboBoxDificultad.Size = new System.Drawing.Size(85, 33);
             this.comboBoxDificultad.TabIndex = 7;
             this.comboBoxDificultad.SelectedIndexChanged += new System.EventHandler(this.comboBoxDificultad_SelectedIndexChanged);
             // 
@@ -137,7 +137,7 @@
             // 
             this.textBoxRespuesta1.BackColor = System.Drawing.Color.Red;
             this.textBoxRespuesta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRespuesta1.Location = new System.Drawing.Point(303, 302);
+            this.textBoxRespuesta1.Location = new System.Drawing.Point(303, 292);
             this.textBoxRespuesta1.Name = "textBoxRespuesta1";
             this.textBoxRespuesta1.Size = new System.Drawing.Size(565, 30);
             this.textBoxRespuesta1.TabIndex = 10;
@@ -147,7 +147,7 @@
             // 
             this.textBoxRespuesta2.BackColor = System.Drawing.Color.Red;
             this.textBoxRespuesta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRespuesta2.Location = new System.Drawing.Point(303, 372);
+            this.textBoxRespuesta2.Location = new System.Drawing.Point(303, 362);
             this.textBoxRespuesta2.Name = "textBoxRespuesta2";
             this.textBoxRespuesta2.Size = new System.Drawing.Size(565, 30);
             this.textBoxRespuesta2.TabIndex = 11;
@@ -157,7 +157,7 @@
             // 
             this.textBoxRespuesta3.BackColor = System.Drawing.Color.Red;
             this.textBoxRespuesta3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRespuesta3.Location = new System.Drawing.Point(303, 442);
+            this.textBoxRespuesta3.Location = new System.Drawing.Point(303, 432);
             this.textBoxRespuesta3.Name = "textBoxRespuesta3";
             this.textBoxRespuesta3.Size = new System.Drawing.Size(565, 30);
             this.textBoxRespuesta3.TabIndex = 12;
@@ -167,7 +167,7 @@
             // 
             this.textBoxRespuesta_correcta.BackColor = System.Drawing.Color.Green;
             this.textBoxRespuesta_correcta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRespuesta_correcta.Location = new System.Drawing.Point(303, 512);
+            this.textBoxRespuesta_correcta.Location = new System.Drawing.Point(303, 502);
             this.textBoxRespuesta_correcta.Name = "textBoxRespuesta_correcta";
             this.textBoxRespuesta_correcta.Size = new System.Drawing.Size(565, 30);
             this.textBoxRespuesta_correcta.TabIndex = 13;
