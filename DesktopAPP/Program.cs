@@ -16,7 +16,7 @@ namespace DesktopAPP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormIniciar());
+            Application.Run(new Form1_Iniciar());
         }
     }
 }

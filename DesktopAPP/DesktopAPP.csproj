@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form5_ModificarPregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5_ModificarPregunta.Designer.cs">
+      <DependentUpon>Form5_ModificarPregunta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form4_AñadirPregunta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form5_ModificarPregunta.resx">
+      <DependentUpon>Form5_ModificarPregunta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form4_AñadirPregunta.resx">
       <DependentUpon>Form4_AñadirPregunta.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +109,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FondoDESKTOP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Button escritorio.png" />
+    <None Include="Resources\Logo1 %283%29.png" />
+    <None Include="Resources\kisspng-button-arrow-clip-art-back-arrow-5aaffc048f0102.1824054415214827565858.png" />
+    <None Include="Resources\undo ok.png" />
+    <None Include="Resources\Button escritorio1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
