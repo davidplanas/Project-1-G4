@@ -29,25 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7_AñadirLogro));
-            this.button7_Atras = new System.Windows.Forms.Button();
             this.label7_AñadirLogro = new System.Windows.Forms.Label();
             this.label7_Logro = new System.Windows.Forms.Label();
             this.label7_DescrLogro = new System.Windows.Forms.Label();
             this.textBox7_Logro = new System.Windows.Forms.TextBox();
             this.button7_Guardar = new System.Windows.Forms.Button();
             this.richTextBox7_Logro = new System.Windows.Forms.RichTextBox();
+            this.button7_Atras = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // button7_Atras
-            // 
-            this.button7_Atras.BackColor = System.Drawing.Color.Transparent;
-            this.button7_Atras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7_Atras.Image = global::DesktopAPP.Properties.Resources.undo_ok;
-            this.button7_Atras.Location = new System.Drawing.Point(12, 12);
-            this.button7_Atras.Name = "button7_Atras";
-            this.button7_Atras.Size = new System.Drawing.Size(75, 71);
-            this.button7_Atras.TabIndex = 0;
-            this.button7_Atras.UseVisualStyleBackColor = false;
             // 
             // label7_AñadirLogro
             // 
@@ -119,6 +108,19 @@
             this.richTextBox7_Logro.TabIndex = 10;
             this.richTextBox7_Logro.Text = "";
             // 
+            // button7_Atras
+            // 
+            this.button7_Atras.BackColor = System.Drawing.Color.Transparent;
+            this.button7_Atras.BackgroundImage = global::DesktopAPP.Properties.Resources.kisspng_button_arrow_clip_art_back_arrow_5aaffc048f0102_1824054415214827565858;
+            this.button7_Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7_Atras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7_Atras.ForeColor = System.Drawing.Color.Transparent;
+            this.button7_Atras.Location = new System.Drawing.Point(12, 12);
+            this.button7_Atras.Name = "button7_Atras";
+            this.button7_Atras.Size = new System.Drawing.Size(50, 50);
+            this.button7_Atras.TabIndex = 18;
+            this.button7_Atras.UseVisualStyleBackColor = false;
+            // 
             // Form7_AñadirLogro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,13 +128,13 @@
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 611);
+            this.Controls.Add(this.button7_Atras);
             this.Controls.Add(this.richTextBox7_Logro);
             this.Controls.Add(this.button7_Guardar);
             this.Controls.Add(this.textBox7_Logro);
             this.Controls.Add(this.label7_DescrLogro);
             this.Controls.Add(this.label7_Logro);
             this.Controls.Add(this.label7_AñadirLogro);
-            this.Controls.Add(this.button7_Atras);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form7_AñadirLogro";
@@ -145,13 +147,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button7_Atras;
         private System.Windows.Forms.Label label7_AñadirLogro;
         private System.Windows.Forms.Label label7_Logro;
         private System.Windows.Forms.Label label7_DescrLogro;
         private System.Windows.Forms.TextBox textBox7_Logro;
         private System.Windows.Forms.Button button7_Guardar;
         private System.Windows.Forms.RichTextBox richTextBox7_Logro;
+        private System.Windows.Forms.Button button7_Atras;
     }
 }
