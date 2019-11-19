@@ -111,12 +111,14 @@
             // button8_Atras
             // 
             this.button8_Atras.BackColor = System.Drawing.Color.Transparent;
+            this.button8_Atras.BackgroundImage = global::DesktopAPP.Properties.Resources.kisspng_button_arrow_clip_art_back_arrow_5aaffc048f0102_1824054415214827565858;
+            this.button8_Atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8_Atras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8_Atras.Image = global::DesktopAPP.Properties.Resources.undo_ok;
+            this.button8_Atras.ForeColor = System.Drawing.Color.Transparent;
             this.button8_Atras.Location = new System.Drawing.Point(12, 12);
             this.button8_Atras.Name = "button8_Atras";
-            this.button8_Atras.Size = new System.Drawing.Size(75, 71);
-            this.button8_Atras.TabIndex = 11;
+            this.button8_Atras.Size = new System.Drawing.Size(50, 50);
+            this.button8_Atras.TabIndex = 19;
             this.button8_Atras.UseVisualStyleBackColor = false;
             // 
             // Form8_ModificarLogro
@@ -126,13 +128,13 @@
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 611);
+            this.Controls.Add(this.button8_Atras);
             this.Controls.Add(this.richTextBox8_Logro);
             this.Controls.Add(this.button8_Guardar);
             this.Controls.Add(this.textBox8_Logro);
             this.Controls.Add(this.label8_DescrLogro);
             this.Controls.Add(this.label8_Logro);
             this.Controls.Add(this.label8_ModificarLogro);
-            this.Controls.Add(this.button8_Atras);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form8_ModificarLogro";
