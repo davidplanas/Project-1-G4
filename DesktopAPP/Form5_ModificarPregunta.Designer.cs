@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5_ModificarPregunta));
             this.label5_Dificultad = new System.Windows.Forms.Label();
             this.label5_Pregunta = new System.Windows.Forms.Label();
             this.label5_Respuesta1 = new System.Windows.Forms.Label();
@@ -247,6 +248,7 @@
             this.Controls.Add(this.label5_Pregunta);
             this.Controls.Add(this.label5_Dificultad);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form5_ModificarPregunta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

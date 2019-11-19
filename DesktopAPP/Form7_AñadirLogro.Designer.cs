@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form7_AñadirLogro));
             this.button7_Atras = new System.Windows.Forms.Button();
             this.label7_AñadirLogro = new System.Windows.Forms.Label();
             this.label7_Logro = new System.Windows.Forms.Label();
@@ -133,6 +134,7 @@
             this.Controls.Add(this.label7_AñadirLogro);
             this.Controls.Add(this.button7_Atras);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form7_AñadirLogro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Añadir logro";
