@@ -103,6 +103,16 @@ namespace DesktopAPP.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap guardar {
+            get {
+                object obj = ResourceManager.GetObject("guardar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kisspng_button_arrow_clip_art_back_arrow_5aaffc048f0102_1824054415214827565858 {
             get {
                 object obj = ResourceManager.GetObject("kisspng-button-arrow-clip-art-back-arrow-5aaffc048f0102.1824054415214827565858", resourceCulture);

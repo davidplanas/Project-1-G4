@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form7_AñadirLogro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7_AñadirLogro.Designer.cs">
+      <DependentUpon>Form7_AñadirLogro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form5_ModificarPregunta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +70,17 @@
     <Compile Include="Form1_Iniciar.Designer.cs">
       <DependentUpon>Form1_Iniciar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form8_ModificarLogro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8_ModificarLogro.Designer.cs">
+      <DependentUpon>Form8_ModificarLogro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form7_AñadirLogro.resx">
+      <DependentUpon>Form7_AñadirLogro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form5_ModificarPregunta.resx">
       <DependentUpon>Form5_ModificarPregunta.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1_Iniciar.resx">
       <DependentUpon>Form1_Iniciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8_ModificarLogro.resx">
+      <DependentUpon>Form8_ModificarLogro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Button escritorio.png" />
+    <None Include="Resources\guardar.png" />
     <None Include="Resources\Logo1 %283%29.png" />
     <None Include="Resources\kisspng-button-arrow-clip-art-back-arrow-5aaffc048f0102.1824054415214827565858.png" />
     <None Include="Resources\undo ok.png" />
