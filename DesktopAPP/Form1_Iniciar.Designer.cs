@@ -135,7 +135,7 @@
             this.Name = "Form1_Iniciar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Galaxy Traveller";
-            this.Load += new System.EventHandler(this.FormIniciar_Load);
+            this.Load += new System.EventHandler(this.Form1_Iniciar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
