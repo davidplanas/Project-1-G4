@@ -37,10 +37,10 @@
             // button2_AdmPregunta
             // 
             this.button2_AdmPregunta.BackColor = System.Drawing.Color.Transparent;
-            this.button2_AdmPregunta.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.button2_AdmPregunta.BackgroundImage = global::DesktopAPP.Properties.Resources._2_AdministrarPreguntasyLogrosDAVID;
             this.button2_AdmPregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2_AdmPregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2_AdmPregunta.Location = new System.Drawing.Point(124, 138);
+            this.button2_AdmPregunta.Location = new System.Drawing.Point(124, 176);
             this.button2_AdmPregunta.Name = "button2_AdmPregunta";
             this.button2_AdmPregunta.Size = new System.Drawing.Size(722, 113);
             this.button2_AdmPregunta.TabIndex = 0;
@@ -50,10 +50,10 @@
             // button2_AdmLogros
             // 
             this.button2_AdmLogros.BackColor = System.Drawing.Color.Transparent;
-            this.button2_AdmLogros.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.button2_AdmLogros.BackgroundImage = global::DesktopAPP.Properties.Resources._2_AdministrarLogrosDAVID__2_;
             this.button2_AdmLogros.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2_AdmLogros.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2_AdmLogros.Location = new System.Drawing.Point(124, 315);
+            this.button2_AdmLogros.Location = new System.Drawing.Point(124, 335);
             this.button2_AdmLogros.Name = "button2_AdmLogros";
             this.button2_AdmLogros.Size = new System.Drawing.Size(722, 113);
             this.button2_AdmLogros.TabIndex = 1;
