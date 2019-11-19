@@ -89,9 +89,10 @@
             // textBox7_Logro
             // 
             this.textBox7_Logro.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox7_Logro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.textBox7_Logro.Location = new System.Drawing.Point(302, 380);
             this.textBox7_Logro.Name = "textBox7_Logro";
-            this.textBox7_Logro.Size = new System.Drawing.Size(373, 20);
+            this.textBox7_Logro.Size = new System.Drawing.Size(373, 30);
             this.textBox7_Logro.TabIndex = 5;
             // 
             // button7_Guardar
