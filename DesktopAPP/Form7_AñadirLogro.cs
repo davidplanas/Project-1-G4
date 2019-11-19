@@ -16,5 +16,10 @@ namespace DesktopAPP
         {
             InitializeComponent();
         }
+
+        private void Form7_AñadirLogro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
