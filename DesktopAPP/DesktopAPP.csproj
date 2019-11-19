@@ -147,6 +147,10 @@
     <None Include="Resources\FondoDESKTOP.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\BotonIniciarbueno.png" />
+    <None Include="Resources\1-IniciarSalir Bueno.png" />
+    <None Include="Resources\2-AdministrarPreguntasyLogrosDAVID.png" />
+    <None Include="Resources\2-AdministrarLogrosDAVID %282%29.png" />
     <Content Include="Resources\Button escritorio.png" />
     <None Include="Resources\guardar.png" />
     <None Include="Resources\Logo1 %283%29.png" />

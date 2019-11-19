@@ -41,30 +41,28 @@
             // buttonIniciar
             // 
             this.buttonIniciar.BackColor = System.Drawing.Color.Transparent;
-            this.buttonIniciar.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.buttonIniciar.BackgroundImage = global::DesktopAPP.Properties.Resources.BotonIniciarbueno;
             this.buttonIniciar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonIniciar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonIniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonIniciar.Location = new System.Drawing.Point(320, 215);
+            this.buttonIniciar.Location = new System.Drawing.Point(302, 215);
             this.buttonIniciar.Name = "buttonIniciar";
-            this.buttonIniciar.Size = new System.Drawing.Size(350, 150);
+            this.buttonIniciar.Size = new System.Drawing.Size(400, 150);
             this.buttonIniciar.TabIndex = 0;
-            this.buttonIniciar.Text = "INICIAR";
             this.buttonIniciar.UseVisualStyleBackColor = false;
             this.buttonIniciar.Click += new System.EventHandler(this.buttonIniciar_Click);
             // 
             // buttonSalir
             // 
             this.buttonSalir.BackColor = System.Drawing.Color.Transparent;
-            this.buttonSalir.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.buttonSalir.BackgroundImage = global::DesktopAPP.Properties.Resources._1_IniciarSalir_Bueno;
             this.buttonSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSalir.Location = new System.Drawing.Point(405, 371);
+            this.buttonSalir.Location = new System.Drawing.Point(386, 371);
             this.buttonSalir.Name = "buttonSalir";
-            this.buttonSalir.Size = new System.Drawing.Size(175, 85);
+            this.buttonSalir.Size = new System.Drawing.Size(225, 85);
             this.buttonSalir.TabIndex = 1;
-            this.buttonSalir.Text = "SALIR";
             this.buttonSalir.UseVisualStyleBackColor = false;
             this.buttonSalir.Click += new System.EventHandler(this.buttonSalir_Click);
             // 
