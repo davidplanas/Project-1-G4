@@ -64,7 +64,7 @@
             // 
             this.textBox8_Logro.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox8_Logro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox8_Logro.Location = new System.Drawing.Point(296, 374);
+            this.textBox8_Logro.Location = new System.Drawing.Point(297, 374);
             this.textBox8_Logro.Name = "textBox8_Logro";
             this.textBox8_Logro.Size = new System.Drawing.Size(373, 30);
             this.textBox8_Logro.TabIndex = 15;
