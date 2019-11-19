@@ -50,6 +50,7 @@
             this.label4_Dificultad.AutoSize = true;
             this.label4_Dificultad.BackColor = System.Drawing.Color.Transparent;
             this.label4_Dificultad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Dificultad.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Dificultad.Location = new System.Drawing.Point(109, 143);
             this.label4_Dificultad.Name = "label4_Dificultad";
             this.label4_Dificultad.Size = new System.Drawing.Size(97, 25);
@@ -61,6 +62,7 @@
             this.label4_Pregunta.AutoSize = true;
             this.label4_Pregunta.BackColor = System.Drawing.Color.Transparent;
             this.label4_Pregunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Pregunta.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Pregunta.Location = new System.Drawing.Point(109, 197);
             this.label4_Pregunta.Name = "label4_Pregunta";
             this.label4_Pregunta.Size = new System.Drawing.Size(97, 25);
@@ -72,6 +74,7 @@
             this.label4_Respuesta1.AutoSize = true;
             this.label4_Respuesta1.BackColor = System.Drawing.Color.Transparent;
             this.label4_Respuesta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Respuesta1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Respuesta1.Location = new System.Drawing.Point(170, 295);
             this.label4_Respuesta1.Name = "label4_Respuesta1";
             this.label4_Respuesta1.Size = new System.Drawing.Size(127, 25);
@@ -83,6 +86,7 @@
             this.label4_Respuesta2.AutoSize = true;
             this.label4_Respuesta2.BackColor = System.Drawing.Color.Transparent;
             this.label4_Respuesta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Respuesta2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Respuesta2.Location = new System.Drawing.Point(170, 365);
             this.label4_Respuesta2.Name = "label4_Respuesta2";
             this.label4_Respuesta2.Size = new System.Drawing.Size(127, 25);
@@ -94,6 +98,7 @@
             this.label4_Respuesta3.AutoSize = true;
             this.label4_Respuesta3.BackColor = System.Drawing.Color.Transparent;
             this.label4_Respuesta3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Respuesta3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Respuesta3.Location = new System.Drawing.Point(170, 435);
             this.label4_Respuesta3.Name = "label4_Respuesta3";
             this.label4_Respuesta3.Size = new System.Drawing.Size(127, 25);
@@ -105,6 +110,7 @@
             this.label4_Respuesta_correcta.AutoSize = true;
             this.label4_Respuesta_correcta.BackColor = System.Drawing.Color.Transparent;
             this.label4_Respuesta_correcta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4_Respuesta_correcta.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_Respuesta_correcta.Location = new System.Drawing.Point(109, 505);
             this.label4_Respuesta_correcta.Name = "label4_Respuesta_correcta";
             this.label4_Respuesta_correcta.Size = new System.Drawing.Size(186, 25);
@@ -196,7 +202,7 @@
             this.label4_AñadirPregunta.AutoSize = true;
             this.label4_AñadirPregunta.BackColor = System.Drawing.Color.Transparent;
             this.label4_AñadirPregunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4_AñadirPregunta.ForeColor = System.Drawing.Color.Black;
+            this.label4_AñadirPregunta.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label4_AñadirPregunta.Location = new System.Drawing.Point(295, 35);
             this.label4_AñadirPregunta.Name = "label4_AñadirPregunta";
             this.label4_AñadirPregunta.Size = new System.Drawing.Size(405, 46);

@@ -28,92 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.buttonGuardar = new System.Windows.Forms.Button();
+            this.button7_Atras = new System.Windows.Forms.Button();
+            this.label7_AñadirLogro = new System.Windows.Forms.Label();
+            this.label7_Logro = new System.Windows.Forms.Label();
+            this.label7_DescrLogro = new System.Windows.Forms.Label();
+            this.textBox7_Logro = new System.Windows.Forms.TextBox();
+            this.button7_Guardar = new System.Windows.Forms.Button();
+            this.richTextBox7_Logro = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // button7_Atras
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Image = global::DesktopAPP.Properties.Resources.undo_ok;
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 71);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
+            this.button7_Atras.BackColor = System.Drawing.Color.Transparent;
+            this.button7_Atras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7_Atras.Image = global::DesktopAPP.Properties.Resources.undo_ok;
+            this.button7_Atras.Location = new System.Drawing.Point(12, 12);
+            this.button7_Atras.Name = "button7_Atras";
+            this.button7_Atras.Size = new System.Drawing.Size(75, 71);
+            this.button7_Atras.TabIndex = 0;
+            this.button7_Atras.UseVisualStyleBackColor = false;
             // 
-            // label1
+            // label7_AñadirLogro
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(226, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 46);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "AÑADIR LOGRO";
+            this.label7_AñadirLogro.AutoSize = true;
+            this.label7_AñadirLogro.BackColor = System.Drawing.Color.Transparent;
+            this.label7_AñadirLogro.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.label7_AñadirLogro.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label7_AñadirLogro.Location = new System.Drawing.Point(330, 37);
+            this.label7_AñadirLogro.Name = "label7_AñadirLogro";
+            this.label7_AñadirLogro.Size = new System.Drawing.Size(326, 46);
+            this.label7_AñadirLogro.TabIndex = 1;
+            this.label7_AñadirLogro.Text = "AÑADIR LOGRO";
             // 
-            // label2
+            // label7_Logro
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label2.Location = new System.Drawing.Point(160, 138);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 25);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Logro";
+            this.label7_Logro.AutoSize = true;
+            this.label7_Logro.BackColor = System.Drawing.Color.Transparent;
+            this.label7_Logro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7_Logro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label7_Logro.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label7_Logro.Location = new System.Drawing.Point(458, 352);
+            this.label7_Logro.Name = "label7_Logro";
+            this.label7_Logro.Size = new System.Drawing.Size(62, 25);
+            this.label7_Logro.TabIndex = 2;
+            this.label7_Logro.Text = "Logro";
             // 
-            // textBox1
+            // label7_DescrLogro
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox1.Location = new System.Drawing.Point(229, 142);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(373, 20);
-            this.textBox1.TabIndex = 3;
+            this.label7_DescrLogro.AutoSize = true;
+            this.label7_DescrLogro.BackColor = System.Drawing.Color.Transparent;
+            this.label7_DescrLogro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7_DescrLogro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label7_DescrLogro.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label7_DescrLogro.Location = new System.Drawing.Point(398, 187);
+            this.label7_DescrLogro.Name = "label7_DescrLogro";
+            this.label7_DescrLogro.Size = new System.Drawing.Size(187, 25);
+            this.label7_DescrLogro.TabIndex = 4;
+            this.label7_DescrLogro.Text = "Descripción del logo";
             // 
-            // label3
+            // textBox7_Logro
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label3.Location = new System.Drawing.Point(35, 204);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Descripción del logo";
+            this.textBox7_Logro.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox7_Logro.Location = new System.Drawing.Point(302, 380);
+            this.textBox7_Logro.Name = "textBox7_Logro";
+            this.textBox7_Logro.Size = new System.Drawing.Size(373, 20);
+            this.textBox7_Logro.TabIndex = 5;
             // 
-            // textBox2
+            // button7_Guardar
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox2.Location = new System.Drawing.Point(228, 209);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(373, 20);
-            this.textBox2.TabIndex = 5;
+            this.button7_Guardar.BackColor = System.Drawing.Color.Transparent;
+            this.button7_Guardar.BackgroundImage = global::DesktopAPP.Properties.Resources.guardar;
+            this.button7_Guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7_Guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7_Guardar.Location = new System.Drawing.Point(322, 509);
+            this.button7_Guardar.Name = "button7_Guardar";
+            this.button7_Guardar.Size = new System.Drawing.Size(314, 68);
+            this.button7_Guardar.TabIndex = 6;
+            this.button7_Guardar.UseVisualStyleBackColor = false;
             // 
-            // buttonGuardar
+            // richTextBox7_Logro
             // 
-            this.buttonGuardar.BackColor = System.Drawing.Color.Transparent;
-            this.buttonGuardar.BackgroundImage = global::DesktopAPP.Properties.Resources.guardar;
-            this.buttonGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonGuardar.Location = new System.Drawing.Point(252, 287);
-            this.buttonGuardar.Name = "buttonGuardar";
-            this.buttonGuardar.Size = new System.Drawing.Size(314, 68);
-            this.buttonGuardar.TabIndex = 6;
-            this.buttonGuardar.UseVisualStyleBackColor = false;
+            this.richTextBox7_Logro.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.richTextBox7_Logro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox7_Logro.Location = new System.Drawing.Point(157, 215);
+            this.richTextBox7_Logro.Name = "richTextBox7_Logro";
+            this.richTextBox7_Logro.Size = new System.Drawing.Size(656, 91);
+            this.richTextBox7_Logro.TabIndex = 10;
+            this.richTextBox7_Logro.Text = "";
             // 
             // Form7_AñadirLogro
             // 
@@ -121,17 +123,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonGuardar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(984, 611);
+            this.Controls.Add(this.richTextBox7_Logro);
+            this.Controls.Add(this.button7_Guardar);
+            this.Controls.Add(this.textBox7_Logro);
+            this.Controls.Add(this.label7_DescrLogro);
+            this.Controls.Add(this.label7_Logro);
+            this.Controls.Add(this.label7_AñadirLogro);
+            this.Controls.Add(this.button7_Atras);
             this.DoubleBuffered = true;
             this.Name = "Form7_AñadirLogro";
-            this.Text = "Form7_AñadirLogro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Añadir logro";
+            this.Load += new System.EventHandler(this.Form7_AñadirLogro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,12 +143,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button buttonGuardar;
+        private System.Windows.Forms.Button button7_Atras;
+        private System.Windows.Forms.Label label7_AñadirLogro;
+        private System.Windows.Forms.Label label7_Logro;
+        private System.Windows.Forms.Label label7_DescrLogro;
+        private System.Windows.Forms.TextBox textBox7_Logro;
+        private System.Windows.Forms.Button button7_Guardar;
+        private System.Windows.Forms.RichTextBox richTextBox7_Logro;
     }
 }
