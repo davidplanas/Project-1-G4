@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form2_Administrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_Administrar.Designer.cs">
+      <DependentUpon>Form2_Administrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_Preguntas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_Preguntas.Designer.cs">
+      <DependentUpon>Form3_Preguntas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form7_AñadirLogro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2_Administrar.resx">
+      <DependentUpon>Form2_Administrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_Preguntas.resx">
+      <DependentUpon>Form3_Preguntas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form7_AñadirLogro.resx">
       <DependentUpon>Form7_AñadirLogro.cs</DependentUpon>
     </EmbeddedResource>

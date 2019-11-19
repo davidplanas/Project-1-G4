@@ -62,10 +62,10 @@ namespace DesktopAPP
 
         private void button4_Atras_Click(object sender, EventArgs e)
         {
+            //Oculta Form4_AñadirPregunta y abre Form3_Preguntas
             this.Hide();
-            //Esto no sera asi, era para testear el boton
-            Form1_Iniciar F_Ini = new Form1_Iniciar();
-            F_Ini.ShowDialog();
+            Form3_Preguntas F_Preguntas = new Form3_Preguntas();
+            F_Preguntas.ShowDialog();
         }
     }
 }
