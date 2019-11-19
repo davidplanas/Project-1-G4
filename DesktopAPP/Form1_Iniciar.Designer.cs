@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_Iniciar));
             this.buttonIniciar = new System.Windows.Forms.Button();
             this.buttonSalir = new System.Windows.Forms.Button();
             this.buttonEnglishFlag = new System.Windows.Forms.Button();
@@ -131,6 +132,7 @@
             this.Controls.Add(this.buttonSalir);
             this.Controls.Add(this.buttonIniciar);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1_Iniciar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
