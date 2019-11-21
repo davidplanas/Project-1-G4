@@ -60,6 +60,7 @@
             this.button8_Guardar.Size = new System.Drawing.Size(314, 68);
             this.button8_Guardar.TabIndex = 16;
             this.button8_Guardar.UseVisualStyleBackColor = false;
+            this.button8_Guardar.Click += new System.EventHandler(this.button8_Guardar_Click);
             // 
             // textBox8_Logro
             // 

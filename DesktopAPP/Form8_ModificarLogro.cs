@@ -16,5 +16,15 @@ namespace DesktopAPP
         {
             InitializeComponent();
         }
+
+        private void button8_Guardar_Click(object sender, EventArgs e)
+        {
+            /*
+             * Creo una string para guardar tanto el logro como la descripción.
+             */
+            string descripción_logro = richTextBox8_Logro.Text;
+            string logro = textBox8_Logro.Text;
+            MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido añadido. ");
+        }
     }
 }
