@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopAPP", "DesktopAPP\DesktopAPP.csproj", "{F823840C-7529-49F5-BBF8-F6D0B7E3DF9B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99890177-82B5-4AEF-A4B3-23F1D1AF0B5E}"
+	ProjectSection(SolutionItems) = preProject
+		preguntas.json = preguntas.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
