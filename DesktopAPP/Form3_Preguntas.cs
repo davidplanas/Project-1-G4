@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace DesktopAPP
 {
@@ -23,6 +25,13 @@ namespace DesktopAPP
             this.Hide();
             Form2_Administrar F_Adm = new Form2_Administrar();
             F_Adm.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Aun no he terminado esto xd
+            JArray  jArrayPreguntas = JArray.Parse(File.ReadAllText(preguntas.json));
+            dataGridView_form3.DataSource = jArrayPreguntas;
         }
     }
 }
