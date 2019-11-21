@@ -21,5 +21,16 @@ namespace DesktopAPP
         {
 
         }
+
+        private void button7_Guardar_Click(object sender, EventArgs e)
+        {
+            /*
+             * Creo una string para guardar tanto el logro como la descripción.
+             */
+            string descripción_logro = richTextBox7_Logro.Text;
+            string logro = textBox7_Logro.Text;
+            MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido añadido. ");
+
+        }
     }
 }

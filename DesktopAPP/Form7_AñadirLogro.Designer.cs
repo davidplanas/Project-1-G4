@@ -97,6 +97,7 @@
             this.button7_Guardar.Size = new System.Drawing.Size(314, 68);
             this.button7_Guardar.TabIndex = 6;
             this.button7_Guardar.UseVisualStyleBackColor = false;
+            this.button7_Guardar.Click += new System.EventHandler(this.button7_Guardar_Click);
             // 
             // richTextBox7_Logro
             // 
