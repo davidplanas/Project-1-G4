@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form4AñadirPregunta_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void comboBox4_Dificultad_SelectedIndexChanged(object sender, EventArgs e)
@@ -53,10 +53,12 @@ namespace DesktopAPP
         }
 
         private void button4_Guardar_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            //Esto no sera asi, era para testear el boton
-            Form5_ModificarPregunta F_MPregunta = new Form5_ModificarPregunta();
+        {            
+            string pregunta = richTextBox4_Pregunta.Text;
+            MessageBox.Show(" Tu pregunta: " + pregunta + " ha sido añadida. ");          
+            //Oculta Form4_AñadirPregunta y abre Form3_Preguntas
+            this.Hide();            
+            Form3_Preguntas F_MPregunta = new Form3_Preguntas();
             F_MPregunta.ShowDialog();
         }
 

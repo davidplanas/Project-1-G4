@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form5ModificarPregunta_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void comboBox5_Dificultad_SelectedIndexChanged(object sender, EventArgs e)
@@ -54,7 +54,12 @@ namespace DesktopAPP
 
         private void button5_Guardar_Click(object sender, EventArgs e)
         {
-
+            string pregunta = richTextBox5_Pregunta.Text;
+            MessageBox.Show(" Tu pregunta: " + pregunta + " ha sido modificada. ");
+            //Oculta Form4_AñadirPregunta y abre Form3_Preguntas
+            this.Hide();
+            Form3_Preguntas F_MPregunta = new Form3_Preguntas();
+            F_MPregunta.ShowDialog();
         }
 
         private void button5_Atras_Click(object sender, EventArgs e)
