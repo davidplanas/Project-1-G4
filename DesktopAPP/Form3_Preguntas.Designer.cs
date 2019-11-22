@@ -37,6 +37,9 @@
             this.segunda_respuesta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tercera_respuesta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cuarta_respuesta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3_modificarpregunta = new System.Windows.Forms.Button();
+            this.button3_eliminarpregunta = new System.Windows.Forms.Button();
+            this.button3_añadirpregunta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_form3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +63,7 @@
             this.label_form3.BackColor = System.Drawing.Color.Transparent;
             this.label_form3.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_form3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label_form3.Location = new System.Drawing.Point(348, 22);
+            this.label_form3.Location = new System.Drawing.Point(350, 12);
             this.label_form3.Name = "label_form3";
             this.label_form3.Size = new System.Drawing.Size(244, 55);
             this.label_form3.TabIndex = 19;
@@ -75,9 +78,9 @@
             this.segunda_respuesta,
             this.tercera_respuesta,
             this.cuarta_respuesta});
-            this.dataGridView_form3.Location = new System.Drawing.Point(207, 94);
+            this.dataGridView_form3.Location = new System.Drawing.Point(170, 143);
             this.dataGridView_form3.Name = "dataGridView_form3";
-            this.dataGridView_form3.Size = new System.Drawing.Size(543, 465);
+            this.dataGridView_form3.Size = new System.Drawing.Size(607, 348);
             this.dataGridView_form3.TabIndex = 20;
             this.dataGridView_form3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -106,6 +109,48 @@
             this.cuarta_respuesta.HeaderText = "Cuarta Respuesta";
             this.cuarta_respuesta.Name = "cuarta_respuesta";
             // 
+            // button3_modificarpregunta
+            // 
+            this.button3_modificarpregunta.BackColor = System.Drawing.Color.Transparent;
+            this.button3_modificarpregunta.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_modificar_pregunta;
+            this.button3_modificarpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3_modificarpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3_modificarpregunta.ForeColor = System.Drawing.Color.Transparent;
+            this.button3_modificarpregunta.Location = new System.Drawing.Point(170, 497);
+            this.button3_modificarpregunta.Name = "button3_modificarpregunta";
+            this.button3_modificarpregunta.Size = new System.Drawing.Size(239, 67);
+            this.button3_modificarpregunta.TabIndex = 22;
+            this.button3_modificarpregunta.UseVisualStyleBackColor = false;
+            this.button3_modificarpregunta.Click += new System.EventHandler(this.button3_modificarpregunta_Click);
+            // 
+            // button3_eliminarpregunta
+            // 
+            this.button3_eliminarpregunta.BackColor = System.Drawing.Color.Transparent;
+            this.button3_eliminarpregunta.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_eliminar_pregunta;
+            this.button3_eliminarpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3_eliminarpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3_eliminarpregunta.Location = new System.Drawing.Point(532, 495);
+            this.button3_eliminarpregunta.Name = "button3_eliminarpregunta";
+            this.button3_eliminarpregunta.Size = new System.Drawing.Size(245, 69);
+            this.button3_eliminarpregunta.TabIndex = 23;
+            this.button3_eliminarpregunta.UseCompatibleTextRendering = true;
+            this.button3_eliminarpregunta.UseVisualStyleBackColor = false;
+            this.button3_eliminarpregunta.Click += new System.EventHandler(this.button3_eliminarpregunta_Click);
+            // 
+            // button3_añadirpregunta
+            // 
+            this.button3_añadirpregunta.BackColor = System.Drawing.Color.Transparent;
+            this.button3_añadirpregunta.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_añadir_pregunta;
+            this.button3_añadirpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3_añadirpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3_añadirpregunta.ForeColor = System.Drawing.Color.Transparent;
+            this.button3_añadirpregunta.Location = new System.Drawing.Point(170, 70);
+            this.button3_añadirpregunta.Name = "button3_añadirpregunta";
+            this.button3_añadirpregunta.Size = new System.Drawing.Size(239, 67);
+            this.button3_añadirpregunta.TabIndex = 24;
+            this.button3_añadirpregunta.UseVisualStyleBackColor = false;
+            this.button3_añadirpregunta.Click += new System.EventHandler(this.button3_añadirpregunta_Click);
+            // 
             // Form3_Preguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -113,6 +158,9 @@
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 611);
+            this.Controls.Add(this.button3_añadirpregunta);
+            this.Controls.Add(this.button3_eliminarpregunta);
+            this.Controls.Add(this.button3_modificarpregunta);
             this.Controls.Add(this.dataGridView_form3);
             this.Controls.Add(this.label_form3);
             this.Controls.Add(this.button3_Atras);
@@ -137,5 +185,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn segunda_respuesta;
         private System.Windows.Forms.DataGridViewTextBoxColumn tercera_respuesta;
         private System.Windows.Forms.DataGridViewTextBoxColumn cuarta_respuesta;
+        private System.Windows.Forms.Button button3_modificarpregunta;
+        private System.Windows.Forms.Button button3_eliminarpregunta;
+        private System.Windows.Forms.Button button3_añadirpregunta;
     }
 }
