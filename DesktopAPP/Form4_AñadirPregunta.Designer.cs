@@ -186,15 +186,14 @@
             // button4_Guardar
             // 
             this.button4_Guardar.BackColor = System.Drawing.Color.Transparent;
-            this.button4_Guardar.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.button4_Guardar.BackgroundImage = global::DesktopAPP.Properties.Resources.guardar;
             this.button4_Guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4_Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4_Guardar.Location = new System.Drawing.Point(418, 549);
             this.button4_Guardar.Name = "button4_Guardar";
-            this.button4_Guardar.Size = new System.Drawing.Size(150, 50);
+            this.button4_Guardar.Size = new System.Drawing.Size(204, 50);
             this.button4_Guardar.TabIndex = 14;
-            this.button4_Guardar.Text = "Guardar";
             this.button4_Guardar.UseVisualStyleBackColor = false;
             this.button4_Guardar.Click += new System.EventHandler(this.button4_Guardar_Click);
             // 
