@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form4AñadirPregunta_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void comboBox4_Dificultad_SelectedIndexChanged(object sender, EventArgs e)

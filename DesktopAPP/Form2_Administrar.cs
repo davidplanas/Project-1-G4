@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form2_Administrar_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void button2_Atras_Click(object sender, EventArgs e)
@@ -41,9 +41,9 @@ namespace DesktopAPP
         private void button2_AdmLogros_Click(object sender, EventArgs e)
         {
             // Oculta Form2_Administrar y abre Form6_Logros
-            // this.Hide();
-            // Form6_Logros F_Logros = new Form6_Logros();
-            // F_Logros.ShowDialog();
+             this.Hide();
+             Form6_PantallaLogros F_Logros = new Form6_PantallaLogros();
+             F_Logros.ShowDialog();
         }
     }
 }

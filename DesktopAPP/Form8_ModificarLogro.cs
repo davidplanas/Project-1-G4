@@ -17,6 +17,11 @@ namespace DesktopAPP
             InitializeComponent();
         }
 
+        private void Form8_ModificarLogro_Load(object sender, EventArgs e)
+        {
+            MaximizeBox = false;
+        }
+
         private void button8_Guardar_Click(object sender, EventArgs e)
         {
             /*
@@ -25,6 +30,19 @@ namespace DesktopAPP
             string descripción_logro = richTextBox8_Logro.Text;
             string logro = textBox8_Logro.Text;
             MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido añadido. ");
+        }
+
+        private void button8_Atras_Click(object sender, EventArgs e)
+        {
+            // Oculta Form8 y abre Form6
+            this.Hide();
+            Form6_PantallaLogros F_Adm = new Form6_PantallaLogros();
+            F_Adm.ShowDialog();
+        }
+
+        private void richTextBox8_Logro_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
