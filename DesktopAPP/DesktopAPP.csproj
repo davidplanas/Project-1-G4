@@ -61,6 +61,12 @@
     <Compile Include="Form3_Preguntas.Designer.cs">
       <DependentUpon>Form3_Preguntas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6_PantallaLogros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6_PantallaLogros.Designer.cs">
+      <DependentUpon>Form6_PantallaLogros.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form7_AñadirLogro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3_Preguntas.resx">
       <DependentUpon>Form3_Preguntas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6_PantallaLogros.resx">
+      <DependentUpon>Form6_PantallaLogros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form7_AñadirLogro.resx">
       <DependentUpon>Form7_AñadirLogro.cs</DependentUpon>
@@ -152,6 +161,9 @@
     <None Include="Resources\FondoDESKTOP.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Button_modificar logro.png" />
+    <None Include="Resources\Button_eliminar logro.png" />
+    <None Include="Resources\Button_añadir logro.png" />
     <None Include="Resources\BotonIniciarbueno.png" />
     <None Include="Resources\1-IniciarSalir Bueno.png" />
     <None Include="Resources\2-AdministrarPreguntasyLogrosDAVID.png" />
