@@ -48,6 +48,7 @@
             this.button5_Atras.Size = new System.Drawing.Size(50, 50);
             this.button5_Atras.TabIndex = 19;
             this.button5_Atras.UseVisualStyleBackColor = false;
+            this.button5_Atras.Click += new System.EventHandler(this.button5_Atras_Click);
             // 
             // label_form5
             // 
@@ -107,6 +108,7 @@
             this.button2.Size = new System.Drawing.Size(310, 68);
             this.button2.TabIndex = 24;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form6_PantallaLogros
             // 

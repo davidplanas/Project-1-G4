@@ -161,6 +161,9 @@
     <None Include="Resources\FondoDESKTOP.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Button_modificar pregunta.png" />
+    <None Include="Resources\Button_eliminar pregunta.png" />
+    <None Include="Resources\Button_añadir pregunta.png" />
     <None Include="Resources\Button_modificar logro.png" />
     <None Include="Resources\Button_eliminar logro.png" />
     <None Include="Resources\Button_añadir logro.png" />

@@ -108,6 +108,7 @@
             this.richTextBox7_Logro.Size = new System.Drawing.Size(656, 91);
             this.richTextBox7_Logro.TabIndex = 10;
             this.richTextBox7_Logro.Text = "";
+            this.richTextBox7_Logro.TextChanged += new System.EventHandler(this.richTextBox7_Logro_TextChanged);
             // 
             // button7_Atras
             // 
@@ -121,6 +122,7 @@
             this.button7_Atras.Size = new System.Drawing.Size(50, 50);
             this.button7_Atras.TabIndex = 18;
             this.button7_Atras.UseVisualStyleBackColor = false;
+            this.button7_Atras.Click += new System.EventHandler(this.button7_Atras_Click);
             // 
             // Form7_AñadirLogro
             // 

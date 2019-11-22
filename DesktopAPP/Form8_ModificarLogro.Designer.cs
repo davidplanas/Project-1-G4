@@ -47,6 +47,7 @@
             this.richTextBox8_Logro.Size = new System.Drawing.Size(656, 91);
             this.richTextBox8_Logro.TabIndex = 17;
             this.richTextBox8_Logro.Text = "";
+            this.richTextBox8_Logro.TextChanged += new System.EventHandler(this.richTextBox8_Logro_TextChanged);
             // 
             // button8_Guardar
             // 
@@ -121,6 +122,7 @@
             this.button8_Atras.Size = new System.Drawing.Size(50, 50);
             this.button8_Atras.TabIndex = 19;
             this.button8_Atras.UseVisualStyleBackColor = false;
+            this.button8_Atras.Click += new System.EventHandler(this.button8_Atras_Click);
             // 
             // Form8_ModificarLogro
             // 

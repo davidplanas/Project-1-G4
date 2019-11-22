@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form1_Iniciar_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void buttonIniciar_Click(object sender, EventArgs e)

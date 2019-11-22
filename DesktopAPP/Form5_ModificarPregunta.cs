@@ -19,7 +19,7 @@ namespace DesktopAPP
 
         private void Form5ModificarPregunta_Load(object sender, EventArgs e)
         {
-
+            MaximizeBox = false;
         }
 
         private void comboBox5_Dificultad_SelectedIndexChanged(object sender, EventArgs e)

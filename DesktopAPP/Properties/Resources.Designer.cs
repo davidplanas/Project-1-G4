@@ -113,9 +113,29 @@ namespace DesktopAPP.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Button_añadir_pregunta {
+            get {
+                object obj = ResourceManager.GetObject("Button_añadir pregunta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Button_eliminar_logro {
             get {
                 object obj = ResourceManager.GetObject("Button_eliminar logro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_eliminar_pregunta {
+            get {
+                object obj = ResourceManager.GetObject("Button_eliminar pregunta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +156,16 @@ namespace DesktopAPP.Properties {
         internal static System.Drawing.Bitmap Button_modificar_logro {
             get {
                 object obj = ResourceManager.GetObject("Button_modificar logro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_modificar_pregunta {
+            get {
+                object obj = ResourceManager.GetObject("Button_modificar pregunta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

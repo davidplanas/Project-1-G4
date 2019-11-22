@@ -130,6 +130,9 @@
   <data name="kisspng-button-arrow-clip-art-back-arrow-5aaffc048f0102.1824054415214827565858" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-button-arrow-clip-art-back-arrow-5aaffc048f0102.1824054415214827565858.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Button_añadir logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_añadir logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2-AdministrarPreguntasyLogrosDAVID" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2-AdministrarPreguntasyLogrosDAVID.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -138,6 +141,9 @@
   </data>
   <data name="UK-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UK-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_modificar logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_modificar logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoDESKTOP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoDESKTOP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,6 +154,9 @@
   <data name="Logo1 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo1 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Button_eliminar logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_eliminar logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Espanya-Spain-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Espanya-Spain-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,13 +166,13 @@
   <data name="Catalunya-Catalonia-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Catalunya-Catalonia-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_añadir logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_añadir logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_añadir pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_añadir pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_eliminar logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_eliminar logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_eliminar pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_eliminar pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_modificar logro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_modificar logro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_modificar pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_modificar pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
