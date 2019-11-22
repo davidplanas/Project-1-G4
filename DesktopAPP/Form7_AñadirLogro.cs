@@ -30,6 +30,10 @@ namespace DesktopAPP
             string descripción_logro = richTextBox7_Logro.Text;
             string logro = textBox7_Logro.Text;
             MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido añadido. ");
+            //Oculta Form7 y abre Form6
+            this.Hide();
+            Form6_PantallaLogros F_Logro = new Form6_PantallaLogros();
+            F_Logro.ShowDialog();
 
         }
 

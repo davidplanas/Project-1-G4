@@ -29,7 +29,11 @@ namespace DesktopAPP
              */
             string descripción_logro = richTextBox8_Logro.Text;
             string logro = textBox8_Logro.Text;
-            MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido añadido. ");
+            MessageBox.Show(" Tu logro: " + logro + " de descripción: " + descripción_logro + " ha sido modificado. ");
+            //Oculta Form8 y abre Form6
+            this.Hide();
+            Form6_PantallaLogros F_Logro = new Form6_PantallaLogros();
+            F_Logro.ShowDialog();
         }
 
         private void button8_Atras_Click(object sender, EventArgs e)

@@ -186,15 +186,14 @@
             // button5_Guardar
             // 
             this.button5_Guardar.BackColor = System.Drawing.Color.Transparent;
-            this.button5_Guardar.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_escritorio;
+            this.button5_Guardar.BackgroundImage = global::DesktopAPP.Properties.Resources.guardar;
             this.button5_Guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5_Guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5_Guardar.Location = new System.Drawing.Point(418, 549);
+            this.button5_Guardar.Location = new System.Drawing.Point(409, 549);
             this.button5_Guardar.Name = "button5_Guardar";
-            this.button5_Guardar.Size = new System.Drawing.Size(150, 50);
+            this.button5_Guardar.Size = new System.Drawing.Size(190, 50);
             this.button5_Guardar.TabIndex = 14;
-            this.button5_Guardar.Text = "Guardar";
             this.button5_Guardar.UseVisualStyleBackColor = false;
             this.button5_Guardar.Click += new System.EventHandler(this.button5_Guardar_Click);
             // 
