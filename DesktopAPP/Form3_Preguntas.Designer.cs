@@ -78,9 +78,9 @@
             this.segunda_respuesta,
             this.tercera_respuesta,
             this.cuarta_respuesta});
-            this.dataGridView_form3.Location = new System.Drawing.Point(170, 143);
+            this.dataGridView_form3.Location = new System.Drawing.Point(97, 168);
             this.dataGridView_form3.Name = "dataGridView_form3";
-            this.dataGridView_form3.Size = new System.Drawing.Size(607, 348);
+            this.dataGridView_form3.Size = new System.Drawing.Size(788, 348);
             this.dataGridView_form3.TabIndex = 20;
             this.dataGridView_form3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -116,7 +116,7 @@
             this.button3_modificarpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3_modificarpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3_modificarpregunta.ForeColor = System.Drawing.Color.Transparent;
-            this.button3_modificarpregunta.Location = new System.Drawing.Point(170, 497);
+            this.button3_modificarpregunta.Location = new System.Drawing.Point(97, 522);
             this.button3_modificarpregunta.Name = "button3_modificarpregunta";
             this.button3_modificarpregunta.Size = new System.Drawing.Size(239, 67);
             this.button3_modificarpregunta.TabIndex = 22;
@@ -129,7 +129,7 @@
             this.button3_eliminarpregunta.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_eliminar_pregunta;
             this.button3_eliminarpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3_eliminarpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3_eliminarpregunta.Location = new System.Drawing.Point(532, 495);
+            this.button3_eliminarpregunta.Location = new System.Drawing.Point(640, 520);
             this.button3_eliminarpregunta.Name = "button3_eliminarpregunta";
             this.button3_eliminarpregunta.Size = new System.Drawing.Size(245, 69);
             this.button3_eliminarpregunta.TabIndex = 23;
@@ -144,7 +144,7 @@
             this.button3_añadirpregunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3_añadirpregunta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3_añadirpregunta.ForeColor = System.Drawing.Color.Transparent;
-            this.button3_añadirpregunta.Location = new System.Drawing.Point(170, 70);
+            this.button3_añadirpregunta.Location = new System.Drawing.Point(97, 95);
             this.button3_añadirpregunta.Name = "button3_añadirpregunta";
             this.button3_añadirpregunta.Size = new System.Drawing.Size(239, 67);
             this.button3_añadirpregunta.TabIndex = 24;

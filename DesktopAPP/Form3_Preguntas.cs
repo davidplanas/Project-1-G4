@@ -43,16 +43,16 @@ namespace DesktopAPP
         {
             //Oculta Form3 y abre Form4
             this.Hide();
-            Form4_AñadirPregunta F_Adm = new Form4_AñadirPregunta();
-            F_Adm.ShowDialog();
+            Form4_AñadirPregunta F_AddPregunta = new Form4_AñadirPregunta();
+            F_AddPregunta.ShowDialog();
         }
 
         private void button3_modificarpregunta_Click(object sender, EventArgs e)
         {
-            //Oculta Form3 y abre Form4
+            //Oculta Form3 y abre Form5
             this.Hide();
-            Form4_AñadirPregunta F_Adm = new Form4_AñadirPregunta();
-            F_Adm.ShowDialog();
+            Form5_ModificarPregunta F_ModPregunta = new Form5_ModificarPregunta();
+            F_ModPregunta.ShowDialog();
         }
 
         private void button3_eliminarpregunta_Click(object sender, EventArgs e)

@@ -56,7 +56,7 @@
             this.label_form5.BackColor = System.Drawing.Color.Transparent;
             this.label_form5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_form5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label_form5.Location = new System.Drawing.Point(298, 12);
+            this.label_form5.Location = new System.Drawing.Point(441, 7);
             this.label_form5.Name = "label_form5";
             this.label_form5.Size = new System.Drawing.Size(172, 55);
             this.label_form5.TabIndex = 20;
@@ -67,7 +67,7 @@
             this.textBox1.Location = new System.Drawing.Point(100, 146);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(630, 227);
+            this.textBox1.Size = new System.Drawing.Size(794, 372);
             this.textBox1.TabIndex = 21;
             // 
             // button_eliminarlogro
@@ -77,7 +77,7 @@
             this.button_eliminarlogro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_eliminarlogro.ForeColor = System.Drawing.Color.Transparent;
             this.button_eliminarlogro.Image = global::DesktopAPP.Properties.Resources.Button_eliminar_logro;
-            this.button_eliminarlogro.Location = new System.Drawing.Point(420, 379);
+            this.button_eliminarlogro.Location = new System.Drawing.Point(584, 524);
             this.button_eliminarlogro.Name = "button_eliminarlogro";
             this.button_eliminarlogro.Size = new System.Drawing.Size(310, 68);
             this.button_eliminarlogro.TabIndex = 22;
@@ -103,7 +103,7 @@
             this.button2.BackgroundImage = global::DesktopAPP.Properties.Resources.Button_modificar_logro;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(100, 379);
+            this.button2.Location = new System.Drawing.Point(100, 524);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(310, 68);
             this.button2.TabIndex = 24;
@@ -116,7 +116,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DesktopAPP.Properties.Resources.FondoDESKTOP;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(984, 611);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_eliminarlogro);
@@ -125,6 +125,7 @@
             this.Controls.Add(this.button5_Atras);
             this.DoubleBuffered = true;
             this.Name = "Form6_PantallaLogros";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form6_PantallaLogros";
             this.ResumeLayout(false);
             this.PerformLayout();
