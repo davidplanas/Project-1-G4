@@ -54,20 +54,27 @@ namespace DesktopAPP
 
         private void button5_Guardar_Click(object sender, EventArgs e)
         {
-            string pregunta = richTextBox5_Pregunta.Text;
-            MessageBox.Show(" Tu pregunta: " + pregunta + " ha sido modificada. ");
-            //Oculta Form4_AñadirPregunta y abre Form3_Preguntas
-            this.Hide();
-            Form3_Preguntas F_MPregunta = new Form3_Preguntas();
-            F_MPregunta.ShowDialog();
+            if (comboBox5_Dificultad.Text == "" || richTextBox5_Pregunta.Text == "" || textBox5_Respuesta1.Text == "" || textBox5_Respuesta2.Text == "" || textBox5_Respuesta3.Text == "" || textBox5_Respuesta_correcta.Text == "")
+            {
+                MessageBox.Show("¡Para guardar una nueva pregunta debes rellenar todos los campos!", "¡Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                string pregunta = richTextBox5_Pregunta.Text;
+                MessageBox.Show(" Tu pregunta: " + pregunta + " ha sido modificada. ");
+                //Oculta Form4_AñadirPregunta y abre Form3_Preguntas
+                this.Hide();
+                Form3_Preguntas F_MPregunta = new Form3_Preguntas();
+                F_MPregunta.ShowDialog();
+            }            
         }
 
         private void button5_Atras_Click(object sender, EventArgs e)
         {
+            //Oculta Form5_ModificarPregunta y abre Form3_Preguntas
             this.Hide();
-            //Esto no sera asi, era para testear el boton
-            Form4_AñadirPregunta F_APregunta = new Form4_AñadirPregunta();
-            F_APregunta.ShowDialog();
+            Form3_Preguntas F_MPregunta = new Form3_Preguntas();
+            F_MPregunta.ShowDialog();
         }
     }
 }

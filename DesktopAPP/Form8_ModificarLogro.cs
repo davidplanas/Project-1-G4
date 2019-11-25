@@ -47,6 +47,6 @@ namespace DesktopAPP
         private void richTextBox8_Logro_TextChanged(object sender, EventArgs e)
         {
 
-        }
+        }    
     }
 }

@@ -165,10 +165,13 @@
             this.Controls.Add(this.label_form3);
             this.Controls.Add(this.button3_Atras);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form3_Preguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preguntas";
+            this.Load += new System.EventHandler(this.Form3_Preguntas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_form3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
