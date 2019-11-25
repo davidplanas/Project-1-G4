@@ -139,10 +139,13 @@
             this.Controls.Add(this.label8_Logro);
             this.Controls.Add(this.label8_ModificarLogro);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form8_ModificarLogro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar logro";
+            this.Load += new System.EventHandler(this.Form8_ModificarLogro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

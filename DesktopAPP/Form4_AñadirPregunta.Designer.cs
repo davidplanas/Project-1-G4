@@ -123,10 +123,6 @@
             this.comboBox4_Dificultad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4_Dificultad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4_Dificultad.FormattingEnabled = true;
-            this.comboBox4_Dificultad.Items.AddRange(new object[] {
-            "BAJA",
-            "MEDIA",
-            "ALTA"});
             this.comboBox4_Dificultad.Location = new System.Drawing.Point(212, 140);
             this.comboBox4_Dificultad.Name = "comboBox4_Dificultad";
             this.comboBox4_Dificultad.Size = new System.Drawing.Size(85, 33);
@@ -247,6 +243,7 @@
             this.Controls.Add(this.label4_Pregunta);
             this.Controls.Add(this.label4_Dificultad);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form4_AñadirPregunta";

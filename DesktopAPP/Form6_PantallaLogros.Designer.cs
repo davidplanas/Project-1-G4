@@ -124,9 +124,12 @@
             this.Controls.Add(this.label_form5);
             this.Controls.Add(this.button5_Atras);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form6_PantallaLogros";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form6_PantallaLogros";
+            this.Load += new System.EventHandler(this.Form6_PantallaLogros_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
